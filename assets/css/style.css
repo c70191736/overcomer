@@ -223,7 +223,6 @@ body {
 
 .header {
   --color: var(--white);
-
   position: absolute;
   top: 0;
   left: 0;
@@ -235,13 +234,31 @@ body {
 
 .header.active {
   --color: var(--st-patricks-blue);
-
   position: fixed;
   background-color: var(--white);
   box-shadow: 0 2px 30px hsla(0, 0%, 0%, 0.1);
 }
 
 .header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.headers {
+  --color: var(--st-patricks-blue);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-block: 14px;
+  z-index: 4;
+  transition: var(--transition-1);
+  background-color: var(--white);
+}
+ 
+.headers .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -483,7 +500,36 @@ body {
   background-color: var(--winter-sky);
 }
 
+.service .search {
+  display: flex;
+}
 
+.service .search input{
+   border: 1px solid rgba(69, 69, 69, 0.72);
+   height: 50px;
+   width: 70%;
+   margin: 30px 0;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.service .search .sbtn{
+  border: 1px solid rgba(69, 69, 69, 0);
+  height: 50px;
+  width: 30%;
+  margin: 30px 0 0 10px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: hsl(39, 99%, 56%);
+  color: hsl(0, 0%, 98%);
+  transition: .5s;
+}
+
+.service .search .sbtn:hover{
+  background-color: hsl(39, 100%, 31%);
+  transform: scale(0.98);
+}
 
 /*-----------------------------------*\
   #FEATURE
@@ -680,8 +726,6 @@ body {
     margin-inline-start: auto;
   }
 
-
-
   /**
    * ABOUT
    */
@@ -721,7 +765,13 @@ body {
   .container { max-width: 720px; }
 
 
+  .service .search input {
+    width: 90%;
+  }
 
+  .service .search .sbtn{
+    width: 10%;
+  }
   /**
    * HERO
    */
