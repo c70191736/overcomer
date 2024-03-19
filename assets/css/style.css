@@ -6,18 +6,18 @@
 
   --st-patricks-blue: hsl(236, 57%, 28%);
   --amaranth-purple: hsl(25, 88%, 38%);
-  --royal-blue-dark: hsl(39, 100%, 24%);
+  --royal-blue-dark: hsl(39, 100%, 34%);
   --chrome-yellow: hsl(39, 100%, 52%);
   --space-cadet-1: hsl(0, 0%, 0%);
   --space-cadet-2: hsl(0, 0%, 10%);
   --winter-sky_50: hsla(0, 0%, 12%, 0.5);
   --purple-navy: hsl(236, 26%, 43%);
-  --ksu-purple: hsl(39, 100%, 32%);
+  --ksu-purple: hsl(39, 100%, 50%);
   --winter-sky: rgb(241, 183, 74);
-  --razzmatazz: hsla(29, 76%, 51%, 0.664);
+  --razzmatazz: hsl(39, 100%, 50%);
   --platinum: hsl(0, 0%, 90%);
   --black_70: hsla(0, 0%, 0%, 0.7);
-  --rajah: hsl(29, 99%, 67%);
+  --rajah: hsl(39, 100%, 42%);
   --white: hsl(0, 0%, 100%);
 
   --gradient-1: linear-gradient(90deg,var(--royal-blue-dark) 0,var(--ksu-purple) 51%,var(--royal-blue-dark));
