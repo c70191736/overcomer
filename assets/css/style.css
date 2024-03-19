@@ -420,6 +420,7 @@ body {
 }
 
 .service-card {
+  background-color: var(--white);
   padding: 30px;
   box-shadow: var(--shadow);
   border-radius: var(--radius-12);
@@ -472,8 +473,6 @@ body {
   color: var(--white);
   background-color: var(--winter-sky);
 }
-
-
 
 
 
